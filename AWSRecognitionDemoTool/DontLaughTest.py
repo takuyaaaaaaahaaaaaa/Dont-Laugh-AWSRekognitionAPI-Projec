@@ -41,7 +41,7 @@ while (True):
     if len(faces['FaceDetails']) == 0:
         continue
     face = faces['FaceDetails'][0]
-    print(face)
+
     smile = face['Smile']['Value']
     # 長方形を描画する。例：img = cv2.rectangle(img,(384,0),(510,128),(0,255,0),3)
     # 引数は左上の座標、右下の座標、色,チャネル
